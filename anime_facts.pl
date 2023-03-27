@@ -2319,7 +2319,6 @@ anime("Birdie Wing: Golf Girls' Story", tv, finished_airing, original, 'pg_13', 
 anime("Aikatsu!", tv, finished_airing, original, 'pg', fall, 2012, ["Slice of Life"], ["Idols (Female)", "Music", "School"]).
 anime("Kokkoku", tv, finished_airing, manga, 'r', winter, 2018, ["Drama", "Mystery", "Supernatural"], ["Psychological"]).
 anime("Punch Line", tv, finished_airing, original, 'pg_13', spring, 2015, ["Comedy", "Ecchi", "Sci-Fi", "Supernatural"], ["Super Power"]).
-anime("Saezuru Tori wa Habatakanai: The Clouds Gather", movie, finished_airing, manga, 'r+', winter, 2020, ["Boys Love", "Drama", "Erotica"], ["Organized Crime"]).
 anime("Hidamari Sketch x SP", special, finished_airing, four_koma_manga, 'pg_13', fall, 2011, ["Comedy", "Slice of Life"], ["CGDCT", "Iyashikei", "School", "Visual Arts"]).
 anime("Seitokai Yakuindomo Movie 2", movie, finished_airing, four_koma_manga, 'r', winter, 2021, ["Comedy"], ["Gag Humor", "School"]).
 anime("Haikyuu!! Tokushuu! Haru-kou Volley ni Kaketa Seishun", ova, finished_airing, manga, 'pg_13', summer, 2017, ["Sports"], ["School", "Team Sports"]).
@@ -2375,7 +2374,6 @@ anime("Saiyuuki Reload", tv, finished_airing, manga, 'pg_13', fall, 2003, ["Acti
 anime("Beelzebub: Hirotta Akachan wa Daimaou!?", special, finished_airing, manga, 'pg_13', fall, 2010, ["Action", "Comedy", "Supernatural"], ["Childcare", "Delinquents", "Mythology", "School"]).
 anime("Yuuki Yuuna wa Yuusha de Aru: Washio Sumi no Shou 3 - Yakusoku", movie, finished_airing, light_novel, 'pg_13', summer, 2017, ["Drama", "Fantasy", "Slice of Life"], ["Mahou Shoujo"]).
 anime("Mobile Suit Gundam SEED Destiny Final Plus: The Chosen Future", ova, finished_airing, original, 'r', fall, 2005, ["Drama", "Sci-Fi"], ["Mecha", "Military", "Space"]).
-anime("Fuyu no Semi", ova, finished_airing, manga, 'r', winter, 2007, ["Boys Love", "Drama", "Erotica", "Romance"], ["Historical", "Samurai"]).
 anime("Aho Girl", tv, finished_airing, four_koma_manga, 'pg_13', summer, 2017, ["Comedy", "Romance"], ["School"]).
 anime("Boogiepop wa Warawanai", tv, finished_airing, light_novel, 'r+', winter, 2000, ["Avant Garde", "Drama", "Horror", "Mystery", "Supernatural"], ["Psychological"]).
 anime("Osomatsu-san Movie", movie, finished_airing, manga, 'r', winter, 2019, ["Comedy"], ["Gag Humor", "Parody"]).
@@ -2697,7 +2695,6 @@ anime("Sketchbook: Full Color's", tv, finished_airing, four_koma_manga, 'g', fal
 anime("Asura Cryin'", tv, finished_airing, light_novel, 'pg_13', spring, 2009, ["Action", "Supernatural"], ["Mecha"]).
 anime("Solty Rei", tv, finished_airing, original, 'r', fall, 2005, ["Action", "Sci-Fi"], ["Super Power"]).
 anime("Shakugan no Shana: Koi to Onsen no Kougai Gakushuu!", ova, finished_airing, light_novel, 'pg_13', fall, 2006, ["Comedy", "Ecchi", "Fantasy", "Romance", "Slice of Life"], []).
-anime("Koisuru Boukun", ova, finished_airing, manga, 'r+', spring, 2010, ["Boys Love", "Comedy", "Erotica", "Romance"], []).
 anime("Soredemo Ayumu wa Yosetekuru", tv, currently_airing, manga, 'pg_13', summer, 2022, ["Comedy", "Slice of Life"], ["Romantic Subtext", "School"]).
 anime("IS: Infinite Stratos", tv, finished_airing, light_novel, 'pg_13', winter, 2011, ["Action", "Comedy", "Ecchi", "Sci-Fi"], ["Harem", "Mecha"]).
 anime("Dragon Quest: Dai no Daibouken (2020)", tv, currently_airing, manga, 'pg_13', fall, 2020, ["Action", "Adventure", "Fantasy"], []).
@@ -2859,7 +2856,6 @@ anime("Naruto: Dai Katsugeki!! Yuki Hime Shinobu Houjou Dattebayo! - Konoha no S
 anime("PriPara", tv, finished_airing, game, 'pg', summer, 2014, ["Slice of Life"], ["Idols (Female)", "Music", "School"]).
 anime("Detective Conan OVA 02: 16 Suspects", ova, finished_airing, manga, 'pg_13', null, null, ["Adventure", "Comedy", "Mystery"], ["Detective"]).
 anime("Tenjou Tenge: The Ultimate Fight", ova, finished_airing, manga, 'r', winter, 2005, ["Adventure", "Drama", "Romance", "Supernatural"], ["Martial Arts"]).
-anime("Ai no Kusabi", ova, finished_airing, light_novel, 'r+', summer, 1992, ["Boys Love", "Drama", "Erotica", "Romance", "Sci-Fi"], []).
 anime("Devilman: Tanjou-hen", ova, finished_airing, manga, 'r+', fall, 1987, ["Horror", "Sci-Fi", "Supernatural"], ["Mythology"]).
 anime("Fushigi Yuugi: Dai Ni Bu", ova, finished_airing, manga, 'pg_13', spring, 1997, ["Adventure", "Drama", "Fantasy", "Romance"], ["Historical", "Isekai", "Martial Arts"]).
 anime("Uchuu Show e Youkoso", movie, finished_airing, original, 'g', winter, 2010, ["Adventure", "Fantasy"], ["Space"]).
@@ -2981,7 +2977,6 @@ anime("Pokemon Movie 23: Koko", movie, finished_airing, game, 'pg', fall, 2020, 
 anime("Beelzebub Specials", special, finished_airing, original, 'pg_13', spring, 2011, ["Action", "Comedy", "Supernatural"], ["Childcare", "Delinquents", "Mythology", "School"]).
 anime("Sakamoto Desu ga? Special", special, finished_airing, manga, 'pg_13', summer, 2016, ["Comedy"], ["Gag Humor", "School"]).
 anime("Jashin-chan Dropkick Episode 12", ona, finished_airing, web_manga, 'pg_13', fall, 2018, ["Comedy", "Supernatural"], []).
-anime("Seitokaichou ni Chuukoku", ova, finished_airing, manga, 'r+', fall, 2009, ["Boys Love", "Comedy", "Drama", "Erotica", "Romance"], ["School"]).
 anime("Magia Record: Mahou Shoujo Madoka☆Magica Gaiden (TV)", tv, finished_airing, game, 'pg_13', winter, 2020, ["Drama", "Suspense"], ["Mahou Shoujo", "Psychological"]).
 anime("Ushiro no Shoumen Daare", movie, finished_airing, novel, 'g', winter, 1991, ["Drama"], ["Historical"]).
 anime("Hayate no Gotoku! Cuties", tv, finished_airing, manga, 'pg_13', spring, 2013, ["Comedy", "Romance"], ["Harem", "Parody"]).
@@ -3037,7 +3032,6 @@ anime("Kodomo no Jikan Ni Gakki", ova, finished_airing, manga, 'r', winter, 2009
 anime("Tokyo Marble Chocolate", ova, finished_airing, original, 'pg_13', fall, 2007, ["Romance", "Slice of Life"], []).
 anime("Jinrui wa Suitai Shimashita Specials", special, finished_airing, light_novel, 'pg_13', summer, 2012, ["Comedy", "Fantasy"], []).
 anime("Nekopara", tv, finished_airing, visual_novel, 'pg_13', winter, 2020, ["Comedy", "Slice of Life"], []).
-anime("Ikoku Irokoi Romantan", ova, finished_airing, manga, 'r+', fall, 2007, ["Boys Love", "Comedy", "Erotica", "Romance"], []).
 anime("Seiken no Blacksmith", tv, finished_airing, light_novel, 'r+', fall, 2009, ["Action", "Adventure", "Fantasy"], []).
 anime("Release the Spyce", tv, finished_airing, original, 'pg_13', fall, 2018, ["Action"], ["School"]).
 anime("Otaku no Video", ova, finished_airing, other, 'pg_13', summer, 1991, ["Comedy", "Drama", "Sci-Fi"], ["Historical", "Mecha", "Otaku Culture"]).
@@ -3813,7 +3807,6 @@ anime("Galaxy Angel Z", tv, finished_airing, original, 'pg', winter, 2002, ["Com
 anime("Yuu☆Yuu☆Hakusho (Movie)", movie, finished_airing, manga, 'pg_13', summer, 1993, ["Action", "Adventure", "Comedy", "Supernatural"], ["Martial Arts", "Mythology"]).
 anime("Double Decker! Doug & Kirill", tv, finished_airing, original, 'r', fall, 2018, ["Action", "Comedy", "Sci-Fi"], ["Detective"]).
 anime("Kachou Ouji", tv, finished_airing, original, 'r+', summer, 1999, ["Adventure", "Comedy", "Sci-Fi", "Slice of Life"], ["Music", "Space"]).
-anime("Kirepapa.", ova, finished_airing, manga, 'r+', winter, 2008, ["Boys Love", "Comedy", "Drama", "Erotica", "Romance"], []).
 anime("Strait Jacket", ova, finished_airing, light_novel, 'r', fall, 2007, ["Action", "Fantasy", "Sci-Fi"], []).
 anime("Mahoromatic Summer Special", special, finished_airing, manga, 'r+', summer, 2003, ["Comedy", "Ecchi", "Romance", "Sci-Fi"], []).
 anime("Itsuka Tenma no Kuro Usagi: Kokoro Utsuri no Toukoubi - School Attendance Day", ova, finished_airing, light_novel, 'r', fall, 2011, ["Comedy", "Ecchi", "Romance", "Supernatural"], ["Vampire"]).
@@ -4102,7 +4095,6 @@ anime("Gosho Aoyama's Collection of Short Stories", special, finished_airing, nu
 anime("Muhyo to Rouji no Mahouritsu Soudan Jimusho", tv, finished_airing, manga, 'pg_13', summer, 2018, ["Action", "Comedy", "Drama", "Mystery", "Supernatural"], []).
 anime("Poketoon", ona, finished_airing, game, 'g', spring, 2020, ["Adventure", "Comedy"], []).
 anime("Gokujou Seitokai", tv, finished_airing, original, 'pg_13', spring, 2005, ["Comedy", "Slice of Life"], ["School"]).
-anime("Haru wo Daite Ita", ova, finished_airing, manga, 'r+', winter, 2005, ["Boys Love", "Drama", "Erotica", "Romance"], []).
 anime("Mahou no Stage Fancy Lala", tv, finished_airing, original, 'g', spring, 1998, ["Comedy", "Drama", "Romance"], ["Idols (Female)", "Mahou Shoujo", "Music"]).
 anime("Fate/Extra: Last Encore - Illustrias Tendousetsu", tv, finished_airing, game, 'r', summer, 2018, ["Action", "Fantasy"], []).
 anime("Tales of Phantasia The Animation", ova, finished_airing, game, 'pg_13', fall, 2004, ["Adventure", "Fantasy"], []).
@@ -4398,7 +4390,6 @@ anime("Mecha-ude", ona, finished_airing, original, 'pg_13', summer, 2018, ["Acti
 anime("Assault Lily: Bouquet", tv, finished_airing, mixed_media, 'pg_13', fall, 2020, ["Action", "Fantasy"], []).
 anime("Ihatov Gensou: Kenji no Haru", movie, finished_airing, novel, 'pg', fall, 1996, ["Drama", "Slice of Life"], ["Anthropomorphic", "Historical"]).
 anime("Hitohira", tv, finished_airing, manga, 'pg_13', spring, 2007, ["Drama", "Romance", "Slice of Life"], ["Performing Arts", "School"]).
-anime("Ai no Kusabi (2012)", ova, finished_airing, light_novel, 'r+', winter, 2012, ["Boys Love", "Drama", "Erotica", "Romance", "Sci-Fi"], []).
 anime("Xin Shen Bang: Nezha Chonsheng", movie, finished_airing, original, 'pg_13', winter, 2021, ["Action", "Fantasy", "Sci-Fi"], []).
 anime("Mudai", music, finished_airing, original, 'pg_13', spring, 2015, ["Drama", "Romance", "Slice of Life"], ["Music", "Visual Arts"]).
 anime("Pet", tv, finished_airing, manga, 'r', winter, 2020, ["Mystery", "Supernatural"], ["Psychological"]).
@@ -4456,7 +4447,6 @@ anime(".hack//G.U. Returner", ova, finished_airing, game, 'pg_13', winter, 2007,
 anime("Grisaia: Phantom Trigger The Animation - Stargazer", movie, finished_airing, visual_novel, 'r', fall, 2020, ["Action"], ["School"]).
 anime("Long Riders!", tv, finished_airing, manga, 'pg_13', fall, 2016, ["Comedy", "Slice of Life"], ["CGDCT", "Racing"]).
 anime("Bakusou Kyoudai Let's & Go", tv, finished_airing, manga, 'g', winter, 1996, ["Adventure"], ["Racing"]).
-anime("Hyakujitsu no Bara", ova, finished_airing, manga, 'r+', spring, 2009, ["Boys Love", "Drama", "Erotica"], []).
 anime("Clamp Gakuen Tanteidan", tv, finished_airing, manga, 'g', spring, 1997, ["Action", "Comedy", "Mystery"], []).
 anime("Argento Soma", tv, finished_airing, original, 'pg_13', fall, 2000, ["Action", "Adventure", "Drama", "Sci-Fi"], ["Mecha", "Military"]).
 anime("Micchiri Neko March", music, finished_airing, web_manga, 'g', spring, 2013, [], ["Music"]).
@@ -4469,7 +4459,6 @@ anime("Binchou-tan", tv, finished_airing, manga, 'g', winter, 2006, ["Comedy", "
 anime("X OVA", ova, finished_airing, manga, 'pg_13', summer, 2001, ["Drama", "Fantasy", "Mystery", "Romance", "Supernatural"], []).
 anime("Macross 7 Encore", ova, finished_airing, original, 'pg_13', fall, 1995, ["Action", "Comedy", "Drama", "Sci-Fi"], ["Mecha", "Music", "Space"]).
 anime("Shijou Saikyou no Daimaou, Murabito A ni Tensei suru", tv, finished_airing, light_novel, 'pg_13', spring, 2022, ["Action", "Fantasy"], ["School"]).
-anime("Sex Pistols", ova, finished_airing, manga, 'pg_13', winter, 2010, ["Boys Love", "Comedy", "Drama", "Erotica", "Supernatural"], []).
 anime("Bakuretsu Tenshi: Infinity", ova, finished_airing, original, 'pg_13', winter, 2007, ["Action", "Comedy", "Sci-Fi"], ["Mecha"]).
 anime("Clover", music, finished_airing, manga, 'pg_13', summer, 1999, ["Drama", "Fantasy", "Sci-Fi"], ["Music"]).
 anime("Flanders no Inu", tv, finished_airing, novel, 'g', winter, 1975, ["Drama", "Slice of Life"], ["Historical", "Pets", "Visual Arts"]).
@@ -4703,7 +4692,6 @@ anime("Yaku nara Mug Cup mo", tv, finished_airing, manga, 'pg_13', spring, 2021,
 anime("Love Live! School Idol Project Recap", special, finished_airing, null, 'pg_13', fall, 2013, ["Slice of Life"], ["Idols (Female)", "Music", "School"]).
 anime("Akaneiro ni Somaru Saka: Hardcore", special, finished_airing, visual_novel, 'r+', spring, 2009, ["Comedy", "Ecchi", "Romance"], ["Harem"]).
 anime("Oda Nobuna no Yabou Recap", special, finished_airing, light_novel, 'pg_13', fall, 2012, ["Comedy", "Romance"], ["Historical", "Time Travel"]).
-anime("Yarichin☆Bitch-bu", ova, finished_airing, manga, 'r+', summer, 2018, ["Boys Love", "Comedy", "Erotica"], ["School"]).
 anime("Morita-san wa Mukuchi. 2", tv, finished_airing, four_koma_manga, 'pg_13', fall, 2011, ["Comedy", "Slice of Life"], ["School"]).
 anime("Amaenaide yo!!: Yasumanaide yo!!", special, finished_airing, null, 'r+', fall, 2005, ["Comedy", "Ecchi", "Romance", "Supernatural"], []).
 anime("Megazone 23", ova, finished_airing, original, 'r+', winter, 1985, ["Action", "Mystery", "Romance", "Sci-Fi"], ["Mecha", "Music"]).
@@ -5013,7 +5001,6 @@ anime("Lupin III: The Last Job", special, finished_airing, manga, 'pg_13', winte
 anime("Okusama ga Seitokaichou! OVA: Okusama Gekijou", special, finished_airing, manga, 'pg_13', winter, 2016, ["Comedy"], []).
 anime("DRAMAtical Murder", tv, finished_airing, visual_novel, 'pg_13', summer, 2014, ["Action", "Sci-Fi"], ["Psychological", "Super Power"]).
 anime("Kabuki-bu!", tv, finished_airing, novel, 'pg_13', spring, 2017, [], ["Performing Arts", "School"]).
-anime("Saigo no Door wo Shimero!", ova, finished_airing, manga, 'pg_13', winter, 2007, ["Boys Love", "Comedy", "Drama", "Erotica", "Romance"], []).
 anime("Fatal Fury: The Motion Picture", movie, finished_airing, game, 'r+', summer, 1994, ["Action", "Adventure", "Drama", "Romance"], ["Martial Arts"]).
 anime("Ikkitousen: Shuugaku Toushi Keppuuroku", ova, finished_airing, manga, 'r+', fall, 2011, ["Action", "Ecchi"], ["Martial Arts", "School", "Super Power"]).
 anime("eX-Driver", ova, finished_airing, original, 'pg_13', summer, 2000, ["Action", "Adventure", "Comedy", "Sci-Fi"], ["Racing"]).
@@ -5100,7 +5087,6 @@ anime("Tansu Warashi.", movie, finished_airing, original, 'g', winter, 2011, ["C
 anime("Crayon Shin-chan Movie 06: Dengeki! Buta no Hizume Daisakusen", movie, finished_airing, manga, 'g', spring, 1998, ["Comedy", "Ecchi", "Slice of Life"], ["School"]).
 anime("Kiitarou Shounen no Youkai Enikki", tv, finished_airing, web_manga, 'pg_13', fall, 2016, ["Comedy", "Supernatural"], []).
 anime("Hataraku Saibou Specials", special, finished_airing, manga, 'g', fall, 2018, ["Comedy"], ["Educational", "Medical", "Parody"]).
-anime("Finder Series", ova, finished_airing, manga, 'r', winter, 2012, ["Action", "Boys Love", "Drama", "Erotica"], []).
 anime("Aikatsu!: Nerawareta Mahou no Aikatsu! Card", movie, finished_airing, original, 'pg', summer, 2016, ["Slice of Life"], ["Idols (Female)", "Music", "School"]).
 anime("Kagewani", tv, finished_airing, original, 'r', fall, 2015, ["Horror", "Mystery", "Supernatural", "Suspense"], []).
 anime("Meng Qi Shi Shen 2nd Season", ona, finished_airing, novel, 'pg_13', fall, 2021, ["Adventure", "Comedy", "Drama", "Gourmet", "Romance"], ["Historical", "Time Travel"]).
@@ -5255,10 +5241,8 @@ anime("Yuru Yuri: Doushite, Tomaranai, Tokimeki, Dokidoki, Paradox, Eternal", sp
 anime("Mermaid's Scar", ova, finished_airing, manga, 'r', summer, 1993, ["Drama", "Fantasy", "Horror", "Mystery"], []).
 anime("Kick-Heart", movie, finished_airing, original, 'pg_13', spring, 2013, ["Comedy", "Romance", "Sports"], ["Combat Sports"]).
 anime("Queen Emeraldas", ova, finished_airing, manga, 'pg_13', spring, 1998, ["Action", "Adventure", "Sci-Fi"], ["Space"]).
-anime("Hyakujitsu no Bara: Jinginaki Nikukyuu-hen", special, finished_airing, manga, 'r+', spring, 2009, ["Boys Love", "Erotica"], ["Parody"]).
 anime("Gift: Eternal Rainbow - Ki no Saka Ryokan Kiki Ippatsu!!", special, finished_airing, visual_novel, 'pg_13', spring, 2007, ["Comedy", "Ecchi", "Romance"], ["Harem"]).
 anime("D4DJ Petit Mix", tv, finished_airing, mixed_media, 'pg_13', winter, 2021, ["Comedy"], ["Music"]).
-anime("Okane ga Nai", ova, finished_airing, manga, 'r+', winter, 2007, ["Boys Love", "Drama", "Erotica", "Romance"], []).
 anime("Cobra The Animation: The Psycho-Gun", ova, finished_airing, manga, 'pg_13', summer, 2008, ["Action", "Adventure", "Sci-Fi"], ["Adult Cast", "Mecha", "Space"]).
 anime("Luck & Logic", tv, finished_airing, card_game, 'pg_13', winter, 2016, ["Action", "Fantasy"], []).
 anime("Pokemon Fushigi no Dungeon: Toki no Tankentai, Yami no Tankentai", special, finished_airing, game, 'pg', summer, 2007, ["Adventure", "Fantasy"], []).
@@ -5551,7 +5535,6 @@ anime("Murenase! Seton Gakuen Special", special, finished_airing, manga, 'pg_13'
 anime("Nanaka 6/17", tv, finished_airing, manga, 'pg_13', winter, 2003, ["Comedy", "Drama", "Romance", "Slice of Life"], []).
 anime("Persona 4 the Golden Animation: Thank you Mr. Accomplice", special, finished_airing, game, 'pg_13', fall, 2014, ["Adventure", "Drama", "Mystery", "Supernatural"], []).
 anime("Jigoku Sensei Nube OVA", ova, finished_airing, null, 'pg_13', spring, 1998, ["Action", "Comedy", "Horror", "Supernatural"], ["Mythology", "School"]).
-anime("Kizuna: Koi no kara Sawagi", ova, finished_airing, manga, 'r+', winter, 2001, ["Boys Love", "Drama", "Erotica", "Romance"], []).
 anime("Tenshi ni Narumon!", tv, finished_airing, original, 'pg_13', spring, 1999, ["Comedy", "Fantasy", "Romance"], ["Vampire"]).
 anime("Shin Cutey Honey", ova, finished_airing, manga, 'r+', spring, 1994, ["Adventure", "Comedy", "Ecchi", "Sci-Fi"], []).
 anime("Inazuma Eleven Go Specials", special, finished_airing, null, 'g', fall, 2011, ["Sports"], ["Super Power", "Team Sports"]).
@@ -5570,7 +5553,6 @@ anime("Asa made Jugyou Chu!", ova, finished_airing, manga, 'r+', spring, 2012, [
 anime("Rockman.EXE Beast+", tv, finished_airing, game, 'pg', spring, 2006, ["Action", "Adventure", "Sci-Fi"], ["Mecha", "Strategy Game"]).
 anime("Ryuugajou Nanana no Maizoukin", special, finished_airing, light_novel, 'pg_13', fall, 2011, ["Comedy", "Supernatural"], []).
 anime("Yoku Wakaru Gendai Mahou: Cruncha Cruncha Cruncha", special, finished_airing, light_novel, 'pg_13', spring, 2009, ["Comedy"], []).
-anime("Fuyu no Semi Special", ova, finished_airing, manga, 'r', winter, 2008, ["Action", "Boys Love", "Drama", "Erotica"], ["Historical", "Military", "Samurai"]).
 anime("The SoulTaker: Tamashii-gari", tv, finished_airing, original, 'pg_13', spring, 2001, ["Horror", "Supernatural"], ["Mythology"]).
 anime("Imouto sae Ireba Ii. (ONA)", ona, finished_airing, light_novel, 'pg_13', fall, 2017, ["Comedy"], []).
 anime("Amazing Nuts!", music, finished_airing, original, 'g', fall, 2006, ["Adventure", "Romance", "Sci-Fi"], ["Detective", "Music"]).
@@ -5732,7 +5714,6 @@ anime("Bleach: Gotei 13 Omake", special, finished_airing, manga, 'pg_13', spring
 anime("Fight Ippatsu! Juuden-chan!! Specials", special, finished_airing, null, 'r+', fall, 2009, ["Comedy", "Ecchi"], []).
 anime("Arata naru Sekai: World's/Start/Load/End", ova, finished_airing, original, 'pg_13', fall, 2012, ["Sci-Fi"], ["Time Travel"]).
 anime("Shouwa Monogatari", tv, finished_airing, original, 'pg', spring, 2011, ["Drama"], ["Historical"]).
-anime("Zetsuai 1989", ova, finished_airing, manga, 'pg_13', summer, 1992, ["Boys Love", "Drama", "Erotica", "Romance", "Sports"], ["Music"]).
 anime("Kizuna Ichigeki", movie, finished_airing, original, 'g', winter, 2011, ["Comedy"], ["Martial Arts"]).
 anime("Wangu Xian Qiong", ona, finished_airing, novel, 'pg_13', spring, 2017, ["Adventure", "Comedy", "Fantasy"], []).
 anime("Choujikuu Kidan Southern Cross", tv, finished_airing, original, 'r+', spring, 1984, ["Action", "Drama", "Sci-Fi"], ["Mecha"]).
@@ -5771,7 +5752,6 @@ anime("Herlock Saga: Nibelung no Yubiwa", ova, finished_airing, null, 'r', winte
 anime("Kara no Kyoukai: Manner Movies", movie, finished_airing, null, 'g', fall, 2007, ["Action", "Comedy"], []).
 anime("Dae Jang Geum: Jang Geum's Dream 2", tv, finished_airing, other, null, spring, 2007, ["Adventure", "Comedy", "Gourmet"], ["Historical"]).
 anime("Captain Tsubasa: Asu ni Mukatte Hashire!", movie, finished_airing, null, 'g', winter, 1986, ["Action", "Sports"], ["Team Sports"]).
-anime("Bronze: Zetsuai Since 1989", ova, finished_airing, manga, 'r', fall, 1996, ["Boys Love", "Drama", "Erotica", "Romance", "Sports"], ["Music"]).
 anime("Koukaku Kidoutai Arise: Another Mission", special, finished_airing, null, 'pg_13', spring, 2013, ["Action", "Sci-Fi"], ["Adult Cast", "Detective", "Mecha"]).
 anime("Fate/Grand Order: Himuro no Tenchi - 7-nin no Saikyou Ijin-hen", special, finished_airing, game, 'pg_13', fall, 2017, ["Comedy"], ["School"]).
 anime("Nurse Witch Komugi-chan Magikarte Z", ova, finished_airing, original, 'pg_13', summer, 2004, ["Comedy"], ["Gag Humor", "Mahou Shoujo", "Parody"]).
@@ -5872,7 +5852,6 @@ anime("Fate/Apocrypha Recaps", special, finished_airing, light_novel, 'r', summe
 anime("Precure Dream Stars! Movie", movie, finished_airing, original, 'g', winter, 2017, ["Action", "Comedy", "Fantasy"], ["Mahou Shoujo"]).
 anime("Precure All Stars GoGo Dream Live!", special, finished_airing, original, 'g', fall, 2008, ["Action", "Fantasy"], ["Mahou Shoujo"]).
 anime("Boukyaku no Senritsu", tv, finished_airing, manga, 'pg_13', spring, 2004, ["Adventure", "Fantasy", "Horror", "Sci-Fi", "Supernatural"], ["Mecha", "Psychological", "Space"]).
-anime("Papa to Kiss in the Dark", ova, finished_airing, light_novel, 'r+', fall, 2005, ["Boys Love", "Comedy", "Drama", "Erotica", "Romance"], []).
 anime("Crayon Shin-chan Movie 07: Bakuhatsu! Onsen Wakuwaku Daikessen", movie, finished_airing, manga, 'g', spring, 1999, ["Comedy", "Ecchi", "Slice of Life"], ["School"]).
 anime("Sora no Manimani Specials", special, finished_airing, manga, 'pg_13', summer, 2009, ["Comedy", "Slice of Life"], ["School"]).
 anime("Getter Robo", tv, finished_airing, manga, 'pg_13', spring, 1974, ["Action", "Sci-Fi"], ["Mecha"]).
@@ -6200,7 +6179,6 @@ anime("Yuru Camp△ Movie", movie, finished_airing, manga, 'pg_13', summer, 2022
 anime("Stratos 4 OVA", ova, finished_airing, original, 'pg_13', spring, 2004, ["Comedy", "Sci-Fi"], ["Military"]).
 anime("Soul Link", tv, finished_airing, visual_novel, 'r', spring, 2006, ["Action", "Adventure", "Comedy", "Romance", "Sci-Fi"], ["Military", "Space"]).
 anime("Toaru Majutsu no Index-tan III", special, finished_airing, light_novel, 'pg_13', fall, 2018, ["Comedy"], []).
-anime("Kizuna", ova, finished_airing, manga, 'r+', summer, 1994, ["Boys Love", "Drama", "Erotica", "Romance"], []).
 anime("Tantei Opera Milky Holmes: Alternative", special, finished_airing, original, 'pg_13', summer, 2012, ["Comedy", "Mystery"], ["Super Power"]).
 anime("Dokyuu Hentai HxEros OVA", ova, finished_airing, manga, 'r+', fall, 2020, ["Action", "Comedy", "Ecchi", "Supernatural"], ["School"]).
 anime("Nurarihyon no Mago: Gekitou Dai Futsal Taikai! Nuragumi W Cup!!", special, finished_airing, manga, 'pg_13', fall, 2010, ["Action", "Sports", "Supernatural"], ["Mythology", "Team Sports"]).
@@ -6411,7 +6389,6 @@ anime("Ganbare Douki-chan Special", special, finished_airing, web_manga, 'pg_13'
 anime("Miss Monochrome The Animation: Soccer-hen", ona, finished_airing, original, 'g', spring, 2014, ["Comedy", "Slice of Life", "Sports"], ["Idols (Female)"]).
 anime("Flanders no Inu, Boku no Patrasche", tv, finished_airing, novel, 'g', fall, 1992, ["Drama"], ["Historical", "Pets"]).
 anime("Aimai Elegy", music, finished_airing, null, 'pg_13', fall, 2010, [], ["Music"]).
-anime("Kachou no Koi", ova, finished_airing, manga, 'r+', winter, 2010, ["Boys Love", "Comedy", "Erotica", "Romance"], []).
 anime("Plastic Little", ova, finished_airing, original, 'r+', winter, 1994, ["Action", "Adventure", "Comedy", "Ecchi", "Romance", "Sci-Fi"], ["Mecha", "Military"]).
 anime("Aoi Blink", tv, finished_airing, null, 'g', spring, 1989, ["Adventure", "Fantasy"], []).
 anime("Minami Kamakura Koukou Joshi Jitenshabu: Kita yo, Taiwan!", special, finished_airing, manga, 'pg_13', spring, 2017, ["Sports"], ["CGDCT", "School"]).
@@ -7170,7 +7147,6 @@ anime("Candy Candy: Haru no Yobigoe", movie, finished_airing, null, 'g', winter,
 anime("Akashic Re:cords", ona, finished_airing, game, 'g', fall, 2016, ["Fantasy"], ["Strategy Game"]).
 anime("Glass no Usagi", movie, finished_airing, book, 'pg', summer, 2005, [], ["Historical"]).
 anime("Koukaku Kidoutai: Stand Alone Complex - Tachikoma na Hibi - Interval", special, finished_airing, null, 'g', winter, 2004, ["Comedy", "Sci-Fi"], ["Mecha"]).
-anime("Yebisu Celebrities 1st", ova, finished_airing, manga, 'pg_13', spring, 2010, ["Boys Love", "Erotica"], []).
 anime("Chikyuu Bouei Kazoku", tv, finished_airing, original, 'pg_13', winter, 2001, ["Action", "Comedy", "Drama", "Sci-Fi"], []).
 anime("Sanctuary", ova, finished_airing, manga, 'r+', spring, 1996, ["Action", "Drama", "Suspense"], ["Detective", "Organized Crime"]).
 anime("Cobalt World", music, finished_airing, music, 'g', fall, 2016, ["Slice of Life"], ["Music"]).
@@ -7256,7 +7232,6 @@ anime("Two Car", tv, finished_airing, original, 'pg_13', fall, 2017, [], ["Racin
 anime("UFO Robo Grendizer tai Great Mazinger", movie, finished_airing, null, 'pg_13', winter, 1976, ["Sci-Fi"], ["Mecha"]).
 anime("Sugar*Soldier", special, finished_airing, manga, 'g', winter, 2014, [], []).
 anime("Sore wo Ai to Yobu dake", music, finished_airing, original, 'g', summer, 2020, [], ["Music"]).
-anime("Kyojinzoku no Hanayome", ona, finished_airing, manga, 'r+', summer, 2020, ["Boys Love", "Erotica", "Fantasy"], []).
 anime("Magical Nyan Nyan Taruto", tv, finished_airing, null, 'g', summer, 2001, ["Comedy"], []).
 anime("Shanshui Qing", movie, finished_airing, null, 'g', null, null, [], ["Music"]).
 anime("Warau Hyouteki", ova, finished_airing, manga, 'r', winter, 1987, ["Horror", "Mystery"], []).
@@ -7570,7 +7545,6 @@ anime("Quiz Magic Academy: The Original Animation 2", ova, finished_airing, game
 anime("Chocotan!", special, finished_airing, manga, 'g', winter, 2013, ["Comedy"], ["Pets"]).
 anime("Uchuu Senkan Tiramisù II Specials", special, finished_airing, web_manga, 'pg_13', winter, 2019, ["Comedy", "Sci-Fi", "Slice of Life"], ["Mecha", "Space"]).
 anime("Yakusoku no Neverland 2nd Season: Michishirube", special, finished_airing, manga, 'r', winter, 2021, ["Mystery", "Sci-Fi", "Suspense"], ["Psychological", "Survival"]).
-anime("Maou Evelogia ni Mi wo Sasage yo", ona, finished_airing, manga, 'r+', fall, 2021, ["Boys Love", "Erotica", "Fantasy"], []).
 anime("Extra", music, finished_airing, original, 'r', winter, 1995, ["Action", "Avant Garde", "Horror", "Sci-Fi"], ["Music"]).
 anime("Mori no Densetsu", movie, finished_airing, original, 'g', fall, 1987, ["Adventure", "Drama", "Fantasy"], ["Music"]).
 anime("Boku no Chikyuu wo Mamotte: Alice kara, Rin-kun e", movie, finished_airing, null, 'pg_13', winter, 1995, ["Drama", "Romance", "Sci-Fi"], []).
@@ -8101,7 +8075,6 @@ anime("Yuu☆Yuu☆Hakusho: Eizou Hakusho - Opening Ending Encyclopedia", specia
 anime("Doku Tenshi no Shippo", special, finished_airing, null, 'pg_13', null, null, ["Comedy", "Fantasy", "Romance"], []).
 anime("Princess Princess Specials", special, finished_airing, manga, 'pg_13', summer, 2006, ["Comedy"], ["Crossdressing", "School"]).
 anime("Doraemon (2005) Specials", special, currently_airing, null, 'pg', spring, 2005, ["Comedy"], []).
-anime("Okane ga Nai Specials", special, finished_airing, manga, 'r+', winter, 2007, ["Boys Love", "Comedy", "Erotica", "Romance"], []).
 anime("Tattoon Master", ova, finished_airing, manga, 'pg_13', spring, 1996, ["Adventure", "Comedy", "Slice of Life", "Supernatural"], []).
 anime("Geobreeders 2: Mouryou Yuugekitai File-XX Ransen Toppa", ova, finished_airing, manga, 'r+', summer, 2000, ["Adventure", "Comedy", "Sci-Fi"], []).
 anime("Shimi", music, finished_airing, music, 'pg_13', summer, 2021, ["Romance"], ["Music"]).
@@ -8119,7 +8092,6 @@ anime("Clione no Akari", tv, finished_airing, novel, 'pg', summer, 2017, ["Drama
 anime("Nowisee", music, finished_airing, original, 'g', summer, 2015, [], ["Music"]).
 anime("Dorami & Doraemons: Space Land's Critical Event", movie, finished_airing, null, 'pg', winter, 2001, ["Adventure", "Comedy", "Fantasy", "Sci-Fi"], []).
 anime("Ougon Bat", tv, finished_airing, novel, 'pg_13', spring, 1967, ["Action", "Sci-Fi"], ["Super Power"]).
-anime("Fujimi 2-choume Koukyougakudan", ova, finished_airing, light_novel, 'pg_13', summer, 1997, ["Boys Love", "Drama", "Erotica", "Romance", "Slice of Life"], ["Music", "Psychological"]).
 anime("Kandagawa Jet Girls: Koko kara Hajimaru Tokyo Girls Promotion", ova, finished_airing, mixed_media, 'pg_13', winter, 2020, ["Ecchi"], ["Racing"]).
 anime("Dr.", music, finished_airing, original, 'g', winter, 2009, ["Action", "Adventure", "Sci-Fi"], ["Music", "Super Power"]).
 anime("Pianoman", ona, finished_airing, original, 'pg_13', winter, 2020, ["Fantasy"], ["Music", "Mythology", "Psychological"]).
@@ -8189,7 +8161,6 @@ anime("Lime-iro Senkitan: Nankoku Yume Roman", ova, finished_airing, visual_nove
 anime("Jishu Seisaku Movie Binchou-tan", music, finished_airing, manga, 'g', summer, 2005, ["Slice of Life"], ["Iyashikei", "Music"]).
 anime("Makasete Iruka!", ova, finished_airing, manga, 'g', spring, 2004, ["Action", "Comedy"], ["School"]).
 anime("Shiawase Sou no Okojo-san", tv, finished_airing, manga, 'g', fall, 2001, ["Comedy"], ["Pets"]).
-anime("6 Lovers", ova, finished_airing, manga, 'pg_13', winter, 2021, ["Boys Love", "Comedy", "Drama", "Erotica", "Romance", "Slice of Life", "Supernatural"], ["School"]).
 anime("Busou Chuugakusei: Basket Army", ona, finished_airing, manga, 'pg_13', fall, 2011, ["Action"], ["Military"]).
 anime("Kyochuu Rettou Movie", movie, finished_airing, manga, 'r+', winter, 2020, ["Horror"], ["Gore", "Survival"]).
 anime("Fuuma no Kojirou: Seiken Sensou-hen", ova, finished_airing, manga, 'r', summer, 1990, ["Action", "Fantasy"], ["Martial Arts"]).
@@ -12640,7 +12611,6 @@ anime("Toumei Shounen Tantei Akira", special, finished_airing, original, 'pg_13'
 anime("I Want Nothing", music, finished_airing, original, 'pg_13', spring, 2008, ["Avant Garde"], ["Music"]).
 anime("Asunal Kanayama", special, finished_airing, original, 'g', spring, 2013, ["Slice of Life"], []).
 anime("Hakuchuu Meikyuu", ona, finished_airing, original, 'g', null, null, ["Avant Garde"], []).
-anime("Ikenai Boy", ova, finished_airing, manga, 'r+', spring, 1990, ["Comedy", "Erotica"], ["Harem"]).
 anime("Halved", music, finished_airing, music, 'g', spring, 2016, [], ["Music"]).
 anime("Qiezi Mabo Forever", music, finished_airing, original, 'pg_13', fall, 2017, [], ["Music"]).
 anime("Usa Weather Show", special, finished_airing, original, 'g', spring, 2018, ["Slice of Life"], []).
@@ -12992,7 +12962,6 @@ anime("The First Slam Dunk", movie, not_yet_aired, manga, null, fall, 2022, ["Sp
 anime("Arknights: Reimei Zensou", tv, not_yet_aired, game, null, null, null, ["Action", "Fantasy"], []).
 anime("Kengan Ashura (Zoku-hen)", ona, not_yet_aired, manga, 'r', null, null, ["Action"], ["Martial Arts"]).
 anime("Hirano to Kagiura", movie, not_yet_aired, manga, 'pg_13', null, null, ["Boys Love", "Slice of Life"], ["School"]).
-anime("Saezuru Tori wa Habatakanai: The Storm Breaks", movie, not_yet_aired, manga, 'r+', null, null, ["Boys Love", "Drama", "Erotica"], ["Organized Crime"]).
 anime("Bocchi the Rock!", tv, not_yet_aired, four_koma_manga, 'pg_13', fall, 2022, ["Comedy", "Slice of Life"], ["CGDCT", "Music"]).
 anime("Fate/kaleid liner Prisma☆Illya (Zoku-hen)", null, not_yet_aired, manga, null, null, null, ["Action", "Fantasy"], ["Mahou Shoujo"]).
 anime("Mahoutsukai no Yoru", movie, not_yet_aired, visual_novel, null, null, null, ["Mystery", "Supernatural"], []).
@@ -13722,7 +13691,6 @@ anime("Kunimatsu-sama no Otoridai", tv, finished_airing, null, null, fall, 1971,
 anime("Bikkuriman 2000", tv, finished_airing, null, 'g', fall, 1999, ["Adventure", "Fantasy"], []).
 anime("Tamagotchi Movie: Tanpen Himitsu no Otodoke Daisakusen!", movie, finished_airing, null, 'g', spring, 2017, [], ["Racing"]).
 anime("Mini Van Large", ona, finished_airing, original, 'pg_13', spring, 2021, ["Comedy"], ["Parody", "Strategy Game"]).
-anime("Partner's Territory", ona, finished_airing, web_manga, 'pg_13', spring, 2019, ["Boys Love", "Erotica", "Romance", "Slice of Life"], []).
 anime("Akindo Sei no Little Peso", tv, finished_airing, game, 'pg', spring, 2017, ["Comedy", "Sci-Fi"], []).
 anime("Tsuri Baka Nisshi", tv, finished_airing, manga, 'g', fall, 2002, ["Comedy", "Slice of Life"], []).
 anime("Akuma to Himegimi", movie, finished_airing, null, 'pg_13', winter, 1981, ["Comedy"], []).
@@ -19415,7 +19383,6 @@ anime("Mo Zhuang Chuanshuo", ona, not_yet_aired, original, 'pg_13', null, null, 
 anime("Tekken: Bloodline", tv, not_yet_aired, game, null, null, null, ["Action"], ["Martial Arts", "Strategy Game"]).
 anime("Thrud Kongzhong Nuwushen", ona, not_yet_aired, game, 'pg_13', null, null, ["Action", "Fantasy"], []).
 anime("Peerless Battle Spirit", ona, currently_airing, manga, null, null, null, [], []).
-anime("Isekai Trip-saki de Tasukete Kureta no wa, Hitogoroshi no Shounen deshita. PV", special, finished_airing, web_manga, null, null, null, ["Erotica", "Fantasy"], ["Isekai"]).
 anime("Watashi ni Tenshi ga Maiorita! Yokoku", special, currently_airing, null, null, null, null, ["Comedy", "Girls Love", "Slice of Life"], []).
 anime("Choukadou Girl ⅙: Nona Omoide Kiroku", ona, finished_airing, null, 'pg_13', null, null, ["Comedy"], []).
 anime("Magical Suite Prism Nana Prism Box", music, finished_airing, original, 'g', null, null, [], ["Music"]).
@@ -22218,7 +22185,6 @@ anime("Hanhua Riji KFC CM", special, finished_airing, original, 'g', null, null,
 anime("bang dream CM", special, finished_airing, null, 'g', null, null, [], ["Music"]).
 anime("Catwoman: Hunted", movie, finished_airing, null, null, null, null, ["Action", "Mystery"], ["Super Power"]).
 anime("Eureka Seven", ona, finished_airing, original, 'g', null, null, ["Action", "Comedy", "Drama", "Ecchi", "Fantasy", "Mystery", "Romance", "Slice of Life", "Sports", "Supernatural", "Suspense"], ["Historical", "Music", "School"]).
-anime("Azur Lane 3rd Anniversary Anime PV", special, finished_airing, game, 'pg_13', null, null, ["Erotica", "Girls Love"], []).
 anime("Fire Emblem: HD Movie Collection", ova, finished_airing, game, null, null, null, ["Fantasy"], []).
 anime("Iron Man Pilot", special, finished_airing, null, null, null, null, ["Action", "Sci-Fi"], ["Super Power"]).
 anime("Sprechchor", music, finished_airing, original, 'g', null, null, [], ["Music"]).
@@ -22590,7 +22556,6 @@ anime("Himitsu no Pommepomme-chan", ona, finished_airing, manga, 'g', null, null
 anime("Kirarin☆Himitsu no Pommepomme-chan", music, finished_airing, null, 'g', null, null, [], ["Mahou Shoujo", "Music"]).
 anime("Cherry & Berry", ova, finished_airing, null, 'g', null, null, [], ["Educational", "Visual Arts"]).
 anime("Kaisen (Sea Battle)", movie, finished_airing, original, 'g', null, null, [], []).
-anime("Dash!", special, finished_airing, manga, 'pg_13', null, null, ["Boys Love", "Comedy", "Erotica", "Romance"], ["Combat Sports", "School"]).
 anime("Decocheers☆Win!", ova, finished_airing, manga, 'g', null, null, [], []).
 anime("Mofu☆Mofu (OVA)", ova, finished_airing, null, 'g', null, null, [], []).
 anime("Moffuri Mofu☆Mofu Omajinai Dance", music, finished_airing, null, 'g', null, null, [], ["Music"]).

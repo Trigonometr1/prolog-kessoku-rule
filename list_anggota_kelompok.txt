@@ -1,0 +1,5 @@
+Anggota kelompok dan kontribusi:
+1. 1906350912 - Hendrico Kristiawan (membuat rule filters-duplicate)
+2. 1906306640 - Ahmad Haydar Alkaf (membuat semua rule di anime_rules_search1.pl)
+3. 1906350856 - Taufiq Hadi Pratama (membuat anime_facts.pl dan )
+4. 1906398313 - Andre Septiano (membuat semua rule di anime_rules_search2.pl)

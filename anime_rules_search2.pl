@@ -1,13 +1,11 @@
-:- ensure_loaded(anime_facts).
-
 % anime/9.
 % anime(Name,Type,Status,Source,Rating,Season,Year,Genres,Themes).
 % Title        : String
-% Type         : String
-% Status       : String
-% Source       : String
-% Rating       : String
-% Season       : String             % Airing season
+% Type         : Atom
+% Status       : Atom
+% Source       : Atom
+% Rating       : Atom
+% Season       : Atom             % Airing season
 % Year         : Integer            % Airing year
 % Genres       : List of Strings
 % Themes       : List of Strings
