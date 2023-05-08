@@ -1,3 +1,5 @@
+:- dynamic anime/9.
+
 anime("Fullmetal Alchemist: Brotherhood", tv, finished_airing, manga, 'r', spring, 2009, ["Action", "Adventure", "Drama", "Fantasy"], ["Military"]).
 anime("Hunter x Hunter (2011)", tv, finished_airing, manga, 'pg_13', fall, 2011, ["Action", "Adventure", "Fantasy"], []).
 anime("Shingeki no Kyojin Season 3 Part 2", tv, finished_airing, manga, 'r', spring, 2019, ["Action", "Drama"], ["Gore", "Military", "Survival"]).
