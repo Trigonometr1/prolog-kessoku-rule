@@ -12,3 +12,9 @@ correct_theme(Word, CorrectWord) :-
     theme(CorrectWord),
     isub(Word, CorrectWord, Similarity, [zero_to_one(true), normalize(true)]),
     Similarity > 0.75.
+
+correct_name(Word, CorrectWord) :-
+    anime(CorrectWord, _, _, _, _, _, _, _, _),
+    isub(Word, CorrectWord, Similarity, [zero_to_one(true), normalize(true)]),
+    Similarity > 0.75,
+    !.
