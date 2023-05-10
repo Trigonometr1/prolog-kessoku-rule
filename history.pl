@@ -1,0 +1,139 @@
+save_history(Names) :-
+    member(Name, Names),
+    findall(temp(Name,Type,Status,Source,Rating,Season,Year,Genres,Themes), anime(Name,Type,Status,Source,Rating,Season,Year,Genres,Themes), [Y|_]),
+    asserta(Y), fail.
+
+% save_history(["Naruto", "One Piece", "Dragon Ball", "Bleach"]).
+% listing(temp).
+get_data(Names,Types,Statuses,Sources,Ratings,Seasons,Years,Genreses,Themeses, All) :- 
+    All1 = [],
+    findall(Name,temp(Name,_,_,_,_,_,_,_,_),Names), 
+    findall(Type, temp(_,Type,_,_,_,_,_,_,_), Types1), extract_data(Types1, "Type", [(Types, _, _)|Types3]),
+    append(All1, Types3, All2),
+    findall(Status, temp(_,_,Status,_,_,_,_,_,_), Statuses1), extract_data(Statuses1, "Status", [(Statuses, _, _)|Statuses3]), 
+    append(All2, Statuses3, All3),
+    findall(Source, temp(_,_,_,Source,_,_,_,_,_), Sources1), extract_data(Sources1, "Source", [(Sources, _, _)|Sources3]),
+    append(All3, Sources3, All4),
+    findall(Rating, temp(_,_,_,_,Rating,_,_,_,_), Ratings1), extract_data(Ratings1, "Rating", [(Ratings, _, _)|Ratings3]), 
+    append(All4, Ratings3, All5),
+    findall(Season, temp(_,_,_,_,_,Season,_,_,_), Seasons1), extract_data(Seasons1, "Season", [(Seasons, _, _)|Seasons3]),
+    append(All5, Seasons3, All6),
+    findall(Year, temp(_,_,_,_,_,_,Year,_,_), Years1), extract_data(Years1, "Year", [(Years, _, _)|Years3]),
+    append(All6, Years3, All7),
+    findall(Genres, temp(_,_,_,_,_,_,_,Genres,_), Genreses1), flatten(Genreses1, Genreses2), extract_data(Genreses2, "Genre", [(Genreses, _, _)|Genreses3]),
+    append(All7, Genreses3, All8),
+    findall(Themes, temp(_,_,_,_,_,_,_,_,Themes), Themeses1), flatten(Themeses1, Themeses2), extract_data(Themeses2, "Theme", [(Themeses, _, _)|Themeses3]),
+    append(All8, Themeses3, All9), predsort(descending_thrice, All9, All).
+
+recommending() :-
+    get_data(Names,Types,Statuses,Sources,Ratings,Seasons,Years,Genreses,Themeses, All),
+    recommending_start(Names,Types,Statuses,Sources,Ratings,Seasons,Years,Genreses,Themeses, All).
+
+find(Names,Types,Statuses,Sources,Ratings,Seasons,Years,Genreses,Themeses, Rec_Anime3) :-
+    findall((Name, Genres, Themes),anime(Name,Type,Status,Source,Rating,Season,Year,Genres,Themes), Rec_Anime),
+    filter_genre(Rec_Anime, Genreses, Rec_Anime1), filter_theme(Rec_Anime1, Themeses, Rec_Anime2), 
+    get_name(Rec_Anime2, Rec_Anime3).
+% findall(temp(Name, Genres, Themes),anime(Name,tv, finished_airing, manga, pg_13,fall, 2004,"Fantasy","Martial Arts"), Rec_Anime),
+% find(["Bleach", "Dragon Ball", "One Piece", "Naruto"], tv, finished_airing, manga, pg_13,fall, 2004,"Fantasy","Martial Arts", X)
+
+get_name([], []).
+get_name([(Name, _, _)| Xs], [Name|Ys]) :- get_name(Xs, Ys). 
+
+filter_genre([], _, []).
+filter_genre([(Name, Genres, Themes)|Lst], Genre, Res) :- 
+    member(Genre, Genres), filter_genre(Lst, Genre, Res1), append(Res1, [(Name, Genres, Themes)], Res), !.
+filter_genre([(Name, Genres, Themes)|Lst], Genre, Res) :- 
+    filter_genre(Lst, Genre, Res).
+
+filter_theme([], _, []).
+filter_theme([(Name, Genres, Themes)|Lst], Theme, Res) :- 
+    member(Theme, Themes), filter_theme(Lst, Theme, Res1), append(Res1, [(Name, Genres, Themes)], Res), !.
+filter_theme([(Name, Genres, Themes)|Lst], Theme, Res) :- 
+    filter_theme(Lst, Theme, Res).
+
+
+recommending_start(Names, Type, Status, Source, Rating, Season, Year, Genres, Themes, All) :-
+    write("Mungkin anda suka ini"), nl, 
+    find(Name,Type,Status,Source,Rating,Season,Year,Genres,Themes,Rec_Names1),
+    subtract(Rec_Names1, Names, Rec_Names),
+    write(Rec_Names), nl, 
+    write("Ingin melanjutkan? (y/n)"), nl(), read(In), 
+    In == "y", 
+    append(Names, Rec_Names, Names2),
+    recommending_next(Names2, Type, Status, Source, Rating, Season, Year, Genres, Themes, All).
+
+recommending_next(Names, Type, Status, Source, Rating, Season, Year, Genres, Themes, [(Val, _, "Type")|All]) :-
+    recommending_next2(Names, Val, Status, Source, Rating, Season, Year, Genres, Themes, All), !.
+recommending_next(Names, Type, Status, Source, Rating, Season, Year, Genres, Themes, [(Val, _, "Status")|All]) :-
+    recommending_next2(Names, Type, Val, Source, Rating, Season, Year, Genres, Themes, All), !.
+recommending_next(Names, Type, Status, Source, Rating, Season, Year, Genres, Themes, [(Val, _, "Source")|All]) :-
+    recommending_next2(Names, Type, Status, Val, Rating, Season, Year, Genres, Themes, All), !.
+recommending_next(Names, Type, Status, Source, Rating, Season, Year, Genres, Themes, [(Val, _, "Rating")|All]) :-
+    recommending_next2(Names, Type, Status, Source, Val, Season, Year, Genres, Themes, All), !.
+recommending_next(Names, Type, Status, Source, Rating, Season, Year, Genres, Themes, [(Val, _, "Season")|All]) :-
+    recommending_next2(Names, Type, Status, Source, Rating, Val, Year, Genres, Themes, All), !.
+recommending_next(Names, Type, Status, Source, Rating, Season, Year, Genres, Themes, [(Val, _, "Year")|All]) :-
+    recommending_next2(Names, Type, Status, Source, Rating, Season, Val, Genres, Themes, All), !.
+recommending_next(Names, Type, Status, Source, Rating, Season, Year, Genres, Themes, [(Val, _, "Genre")|All]) :-
+    recommending_next2(Names, Type, Status, Source, Rating, Season, Year, Val, Themes, All), !.
+recommending_next(Names, Type, Status, Source, Rating, Season, Year, Genres, Themes, [(Val, _, "Theme")|All]) :-
+    recommending_next2(Names, Type, Status, Source, Rating, Season, Year, Genres, Val, All), !.
+
+recommending_next2(Names, Type, Status, Source, Rating, Season, Year, Genres, Themes, All) :-
+    write("Bagaimana dengan ini?"), nl, 
+    find(Name,Type,Status,Source,Rating,Season,Year,Genres,Themes,Rec_Names1),
+    subtract(Rec_Names1, Names, Rec_Names),
+    write(Rec_Names), nl, 
+    write("Ingin melanjutkan? (y/n)"), nl(), read(In), 
+    In == "y", 
+    append(Names, Rec_Names, Names2),
+    recommending_next(Names2, Type, Status, Source, Rating, Season, Year, Genres, Themes, All).
+
+extract_data(A, B, C) :- 
+    list_to_set(A, D),
+    create_pair(D, A, [], E),
+    create_thrice(E, B, C).
+
+
+create_thrice([], _, []).
+create_thrice([(A, B)| X] , C, D) :- create_thrice(X, C, D1), append([(A, B, C)], D1, D).
+
+descending_pair(>, (A, B), (C, D)) :-
+    (   B @< D
+    ;   B == D,
+        A @< C ).
+descending_pair(=, (A, B), (C, D)) :-
+    A == C,
+    B == D.
+descending_pair(<, (A, B), (C, D)) :-
+    (   B @> D
+    ;   B == D,
+        A @> C ).
+
+descending_thrice(>, (A, B, _), (C, D, _)) :-
+    (   B @< D
+    ;   B == D,
+        A @< C ).
+descending_thrice(=, (A, B, _), (C, D, _)) :-
+    A == C,
+    B == D.
+descending_thrice(<, (A, B, _), (C, D, _)) :-
+    (   B @> D
+    ;   B == D,
+        A @> C ).
+        
+create_pair(A, B) :-
+    list_to_set(A, C),
+    create_pair(C, A, [], B).
+
+create_pair([], _, C, D) :- predsort(descending_pair, C, D), !.
+
+create_pair([A|As], B, C1, D):-
+    count_in_list(A, B, 0, E),
+    append(C1, [(A, E)], C),
+    create_pair(As, B, C, D).
+
+count_in_list(_, [], C, C).
+count_in_list(A, [A|Bs], C, D) :-
+    C1 is C + 1, count_in_list(A, Bs, C1, D), !.
+count_in_list(A, [_|Bs], C, D) :- count_in_list(A, Bs, C, D).
