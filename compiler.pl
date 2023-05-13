@@ -4,6 +4,7 @@
 :-include('anime_rules_search3.pl').
 :-include('genre_facts.pl').
 :-include('theme_facts.pl').
+:-include('recommend.pl').
 :-include('utils.pl').
 :-include('admin.pl').
 % working_directory(CWD,'e:/Semester 8/Pemrograman Logika/TK/prolog-kessoku-rule/').
