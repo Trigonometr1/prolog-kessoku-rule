@@ -72,15 +72,16 @@ write_per_5(Rec_Names) :-
 
 write_per_5(Rec_Names) :-
     length(Rec_Names, Len), Len >= 5, Rec_Names = [A,B,C,D,E|Rec_Names_Rest],
+    length(Rec_Names_Rest, Len2), Len2 == 0,
     write("Rekomendasi kami: "), nl,
-    write_each_name([A,B,C,D,E]), nl,
-    length(Rec_Names_Rest, Len2), Len2 == 0.
+    write_each_name([A,B,C,D,E]), nl.
+    
 
 write_per_5(Rec_Names) :-
     length(Rec_Names, Len), Len >= 5, Rec_Names = [A,B,C,D,E|Rec_Names_Rest],
+    length(Rec_Names_Rest, Len2), Len2 > 0,
     write("Rekomendasi kami: "), nl,
     write_each_name([A,B,C,D,E]), nl,
-    length(Rec_Names_Rest, Len2), Len2 > 0,
     write("Ingin melanjutkan? (y/n)"), nl(), read(In),
     verify_input1(In, Rec_Names_Rest).
 
