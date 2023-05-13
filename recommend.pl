@@ -47,10 +47,8 @@ recommending_start(Names, Rating, Genres, Themes, All) :-
     find(Rating,Genres,Themes,Rec_Names1),
     subtract(Rec_Names1, Names, Rec_Names),
     write(Rec_Names), nl, 
-    write("Ingin melanjutkan? (y/n)"), nl(), read(In), 
-    In == "y", 
-    append(Names, Rec_Names, Names2),
-    recommending_next(Names2, Rating, Genres, Themes, All).
+    write("Ingin melanjutkan? (y/n)"), nl(), read(In),
+    verify_input(In, Names, Rec_Names, Rating, Genres, Themes, All).
 
 recommending_next(Names, _, Genres, Themes, [(Val, _, "Rating")|All]) :-
     recommending_next2(Names, Val, Genres, Themes, All), !.
@@ -65,9 +63,19 @@ recommending_next2(Names, Rating, Genres, Themes, All) :-
     subtract(Rec_Names1, Names, Rec_Names),
     write(Rec_Names), nl, 
     write("Ingin melanjutkan? (y/n)"), nl(), read(In), 
-    In == "y", 
+    verify_input(In, Names, Rec_Names, Rating, Genres, Themes, All).
+
+verify_input(y, Names, Rec_Names, Rating, Genres, Themes, All) :-
     append(Names, Rec_Names, Names2),
     recommending_next(Names2, Rating, Genres, Themes, All).
+
+verify_input(n, _Names, _Rec_Names, _Rating, _Genres, _Themes, _All) :-
+    write("Terima kasih telah berbelanja di Alfamart!").
+
+verify_input(_, Names, Rec_Names, Rating, Genres, Themes, All) :-
+    write("Kayaknya kamu minim literasi deh. Coba lagi ya bodoh! :v"), nl,
+    write("Ingin melanjutkan? (y/n)"), nl, read(In),
+    verify_input(In, Names, Rec_Names, Rating, Genres, Themes, All).
 
 extract_data(A, B, C) :- 
     list_to_set(A, D),
