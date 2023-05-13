@@ -15,7 +15,7 @@ get_data(Names,Ratings,Genreses,Themeses, All) :-
     findall(Themes, temp(_,_,_,Themes), Themeses1), flatten(Themeses1, Themeses2), extract_data(Themeses2, "Theme", [(Themeses, _, _)|Themeses3]),
     append(All3, Themeses3, All4), predsort(descending_triple, All4, All).
 
-recommending() :-
+recommend_me() :-
     get_data(Names,Ratings,Genreses,Themeses, All),
     recommending_start(Names,Ratings,Genreses,Themeses, All).
 
