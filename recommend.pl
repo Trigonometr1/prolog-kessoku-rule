@@ -46,9 +46,9 @@ recommending_start(Names, Rating, Genres, Themes, All) :-
     write("Mungkin anda suka ini"), nl, 
     find(Rating,Genres,Themes,Rec_Names1),
     subtract(Rec_Names1, Names, Rec_Names),
-    write(Rec_Names), nl, 
+    write_per_5(Rec_Names), nl, 
     write("Ingin melanjutkan? (y/n)"), nl(), read(In),
-    verify_input(In, Names, Rec_Names, Rating, Genres, Themes, All).
+    verify_input2(In, Names, Rec_Names, Rating, Genres, Themes, All).
 
 recommending_next(Names, _, Genres, Themes, [(Val, _, "Rating")|All]) :-
     recommending_next2(Names, Val, Genres, Themes, All), !.
@@ -61,21 +61,56 @@ recommending_next2(Names, Rating, Genres, Themes, All) :-
     write("Bagaimana dengan ini?"), nl, 
     find(Rating,Genres,Themes,Rec_Names1),
     subtract(Rec_Names1, Names, Rec_Names),
-    write(Rec_Names), nl, 
+    write_per_5(Rec_Names), nl, 
     write("Ingin melanjutkan? (y/n)"), nl(), read(In), 
-    verify_input(In, Names, Rec_Names, Rating, Genres, Themes, All).
+    verify_input2(In, Names, Rec_Names, Rating, Genres, Themes, All).
 
-verify_input(y, Names, Rec_Names, Rating, Genres, Themes, All) :-
+write_per_5(Rec_Names) :-
+    length(Rec_Names, Len), Len < 5,
+    write("Rekomendasi kami: "), nl,
+    write_each_name(Rec_Names).
+
+write_per_5(Rec_Names) :-
+    length(Rec_Names, Len), Len >= 5, Rec_Names = [A,B,C,D,E|Rec_Names_Rest],
+    write("Rekomendasi kami: "), nl,
+    write_each_name([A,B,C,D,E]), nl,
+    length(Rec_Names_Rest, Len2), Len2 == 0.
+
+write_per_5(Rec_Names) :-
+    length(Rec_Names, Len), Len >= 5, Rec_Names = [A,B,C,D,E|Rec_Names_Rest],
+    write("Rekomendasi kami: "), nl,
+    write_each_name([A,B,C,D,E]), nl,
+    length(Rec_Names_Rest, Len2), Len2 > 0,
+    write("Ingin melanjutkan? (y/n)"), nl(), read(In),
+    verify_input1(In, Rec_Names_Rest).
+
+write_each_name(Printable) :-
+    length(Printable, Len), Len == 1,
+    Printable = [Name],
+    write(" - "), write(Name), nl.
+
+write_each_name(Printable) :-
+    length(Printable, Len), Len > 1, Printable = [X|Rest],
+    write(" - "), write(X), nl, write_each_name(Rest).
+
+verify_input1(y, Rec_Names) :- write_per_5(Rec_Names).
+verify_input1(n, _Rec_Names) :- write("Terima kasih telah berbelanja di Alfamart!").
+verify_input1(_, Rec_Names) :-
+    write("Kayaknya kamu minim literasi deh. Coba lagi ya :)"), nl,
+    write("Ingin melanjutkan? (y/n)"), nl, read(In),
+    verify_input1(In, Rec_Names).
+
+verify_input2(y, Names, Rec_Names, Rating, Genres, Themes, All) :-
     append(Names, Rec_Names, Names2),
     recommending_next(Names2, Rating, Genres, Themes, All).
 
-verify_input(n, _Names, _Rec_Names, _Rating, _Genres, _Themes, _All) :-
+verify_input2(n, _Names, _Rec_Names, _Rating, _Genres, _Themes, _All) :-
     write("Terima kasih telah berbelanja di Alfamart!").
 
-verify_input(_, Names, Rec_Names, Rating, Genres, Themes, All) :-
-    write("Kayaknya kamu minim literasi deh. Coba lagi ya bodoh! :v"), nl,
+verify_input2(_, Names, Rec_Names, Rating, Genres, Themes, All) :-
+    write("Kayaknya kamu minim literasi deh. Coba lagi ya :)"), nl,
     write("Ingin melanjutkan? (y/n)"), nl, read(In),
-    verify_input(In, Names, Rec_Names, Rating, Genres, Themes, All).
+    verify_input2(In, Names, Rec_Names, Rating, Genres, Themes, All).
 
 extract_data(A, B, C) :- 
     list_to_set(A, D),
