@@ -28,9 +28,9 @@ process_user_command('help') :-
     start(1).
 
 process_user_command('add') :-
-    write('Enter your favorite anime titles separated by commas: '),
-    read_line_to_string(user_input, Line),
-    split_string(Line, ",", " ", Titles),
+    write('Enter your favorite anime titles list'), nl,
+    write('Example: ["Naruto", "One Piece", "Bleach"].'), nl,
+    read(Titles),
     save_history(Titles),
     write('Your history has been saved.'), nl,
     start(1).
