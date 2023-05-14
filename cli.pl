@@ -1,6 +1,5 @@
 % make me a prolog program that tells me welcome and then ask me if I am an admin or a user with a number
 % If i am an admin run start_admin else run start_user
-:- use_module(library(readutil)).
 start :-
     write('Selamat datang di sistem rekomendasi anime'), nl,
     write('Apakah anda User atau Admin?'), nl,
