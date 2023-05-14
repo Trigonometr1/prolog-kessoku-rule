@@ -42,3 +42,7 @@ process_user_command('recommend') :-
 process_user_command(_) :-
     write('Invalid command. Type \'help.\' to see the list of commands.'), nl,
     start(1).
+
+start(2) :-
+    % Display a prompt and read user input
+    write('Semua predicate dapat dicek melalui admin.pl'), nl.
