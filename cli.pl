@@ -23,6 +23,9 @@ process_user_command('help') :-
     write('2. exit -- keluar dari program'), nl,
     write('3. add -- menambahkan anime ke history'), nl,
     write('4. recommend -- rekomendasikan anime berdasarkan history'), nl,
+    write('5. history -- menampilkan seluruh history'), nl,
+    write('6. delete -- menghapus history spesifik'), nl,
+    write('7. clear -- menghapus seluruh history'), nl,
     start(1).
 
 process_user_command('add') :-
@@ -33,8 +36,25 @@ process_user_command('add') :-
     write('Your history has been saved.'), nl,
     start(1).
 
+process_user_command('delete') :-
+    write('Enter your anime to delete from history'), nl,
+    write('Example: ["Naruto", "One Piece", "Bleach"].'), nl,
+    read(Titles),
+    \+ delete_history(Titles),
+    write('Your history has been saved.'), nl,
+    start(1).
+
+process_user_command('clear') :-
+    clear_history(),
+    write('Your history has been cleared.'), nl,
+    start(1).
+
 process_user_command('recommend') :-
     recommend_me(), nl,
+    start(1).
+
+process_user_command('history') :-
+    list_history(), nl,
     start(1).
 
 process_user_command(_) :-

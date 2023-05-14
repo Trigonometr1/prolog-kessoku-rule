@@ -6,6 +6,9 @@ save_history(Names) :-
 delete_history(Names) :- 
     member(Name, Names),
     retract(temp(Name,_,_,_)), fail.
+
+clear_history() :- 
+    retractall(temp(_,_,_,_)).
     
 list_history() :- 
     findall(Name, temp(Name,_,_,_), Names),
