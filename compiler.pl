@@ -8,4 +8,5 @@
 :-include('utils.pl').
 :-include('admin.pl').
 :-include('cli.pl').
+:- use_module(library(readutil)).
 % working_directory(CWD,'e:/Semester 8/Pemrograman Logika/TK/prolog-kessoku-rule/').
