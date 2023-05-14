@@ -3,7 +3,7 @@ admin(admin, taufanyahya590728).
 authenticate:-
     nl,
     write('Username: '),nl,read(U),
-    write('Password: '),nl, read(P)
+    write('Password: '),nl, read(P),
     verified(U,P),
     adminmenu.
 
@@ -63,5 +63,5 @@ editselection(2):-
 
 editselection(3):-
     nl,
-    write('Terima kasih. Meninggalkan menu Admin...'),nl,
+    write('Terima kasih. Meninggalkan menu Admin...'),nl,nl,
     start.
