@@ -14,8 +14,7 @@ start(1) :-
     % Display a prompt and read user input
     write('Masukkan sebuah perintah: '),
     read(UserCommand),
-    process_user_command(UserCommand),
-    start(1).
+    process_user_command(UserCommand).
 
 process_user_command('exit') :- !.
 process_user_command('quit') :- !.
@@ -26,17 +25,21 @@ process_user_command('help') :-
     write('1. help -- menampilkan semua perintah yang tersedia'), nl,
     write('2. exit -- keluar dari program'), nl,
     write('3. add -- menambahkan anime ke history'), nl,
-    write('4. recommend -- rekomendasikan anime berdasarkan history'), nl.
+    write('4. recommend -- rekomendasikan anime berdasarkan history'), nl,
+    start(1).
 
 process_user_command('add') :-
     write('Enter your favorite anime titles separated by commas: '),
     read_line_to_string(user_input, Line),
     split_string(Line, ",", " ", Titles),
     save_history(Titles),
-    write('Your history has been saved.'), nl.
+    write('Your history has been saved.'), nl,
+    start(1).
 
 process_user_command('recommend') :-
-    recommend_me().
+    recommend_me(),
+    start(1).
 
 process_user_command(_) :-
-    write('Invalid command. Type \'help.\' to see the list of commands.'), nl.
+    write('Invalid command. Type \'help.\' to see the list of commands.'), nl,
+    start(1).
