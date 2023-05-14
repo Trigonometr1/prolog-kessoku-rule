@@ -112,10 +112,10 @@ verify_input1(y, Rec_Names_Write, Names, Rec_Names, Rating, Genres, Themes, All)
     write_per_5(Rec_Names_Write, Names, Rec_Names, Rating, Genres, Themes, All).
 
 verify_input1(n, _Rec_Names_Write, _Names, _Rec_Names, _Rating, _Genres, _Themes, _All) :- 
-    write("Terima kasih telah berbelanja di Alfamart!").
+    write("Terima kasih sudah menggunakan SiAnime!").
 
 verify_input1(_, Rec_Names_Write, Names, Rec_Names, Rating, Genres, Themes, All) :-
-    write("Kayaknya kamu minim literasi deh. Coba lagi ya :)"), nl,
+    write("Coba lagi dengan parameter yang sesuai :)"), nl,
     write("Ingin melanjutkan? (y/n)"), nl, read(In),
     verify_input1(In, Rec_Names_Write, Names, Rec_Names, Rating, Genres, Themes, All).
 
@@ -127,14 +127,14 @@ verify_input2(y, Names, Rec_Names, Rating, Genres, Themes, All) :-
     append(Names, Rec_Names, Names2),
     \+ recommending_next(Names2, Rating, Genres, Themes, All),
     write("Yahh rekomendasinya sudah habis :(("), nl,
-    write("Terima kasih telah berbelanja di Alfamart!").
+    write("Terima kasih sudah menggunakan SiAnime!").
 
 verify_input2(n, _Names, _Rec_Names, _Rating, _Genres, _Themes, _All) :-
-    write("Terima kasih telah berbelanja di Alfamart!").
+    write("Terima kasih sudah menggunakan SiAnime!").
 
 verify_input2(In, Names, Rec_Names, Rating, Genres, Themes, All) :-
     In \== y, In \== n,
-    write("Kayaknya kamu minim literasi deh. Coba lagi ya :)"), nl,
+    write("Coba lagi dengan parameter yang sesuai :)"), nl,
     write("Ingin melanjutkan? (y/n)"), nl, read(In),
     verify_input2(In, Names, Rec_Names, Rating, Genres, Themes, All).
 

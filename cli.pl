@@ -1,5 +1,5 @@
 start :-
-    write('Selamat datang di sistem rekomendasi anime'), nl,
+    write('Selamat datang di SiAnime, sistem rekomendasi anime'), nl,
     write('Apakah anda User atau Admin?'), nl,
     write('1. User'), nl,
     write('2. Admin'), nl,
@@ -14,7 +14,9 @@ start(1) :-
     process_user_command(UserCommand).
 
 start(2) :-
-    write('Semua predicate dapat dicek melalui admin.pl'), nl.
+    % Display a prompt and read user input
+    write('Silakan lakukan autentikasi diri dahulu'), nl,
+    authenticate.
 
 process_user_command('exit') :- !.
 process_user_command('quit') :- !.
@@ -32,24 +34,24 @@ process_user_command('help') :-
     start(1).
 
 process_user_command('add') :-
-    write('Enter your favorite anime titles list'), nl,
-    write('Example: ["Naruto", "One Piece", "Bleach"].'), nl,
+    write('Ketikkan list nama anime yang mau ditambahkan ke riwayat'), nl,
+    write('Contoh: ["Naruto", "One Piece", "Bleach"].'), nl,
     read(Titles),
     \+ save_history(Titles),
-    write('Your history has been saved.'), nl,
+    write('Riwayat Anda sudah disimpan.'), nl,
     start(1).
 
 process_user_command('delete') :-
-    write('Enter your anime to delete from history'), nl,
-    write('Example: ["Naruto", "One Piece", "Bleach"].'), nl,
+    write('Ketikkan list nama anime yang mau dihilangkan dari riwayat'), nl,
+    write('Contoh: ["Naruto", "One Piece", "Bleach"].'), nl,
     read(Titles),
     \+ delete_history(Titles),
-    write('Your history has been saved.'), nl,
+    write('Riwayat Anda sudah disimpan.'), nl,
     start(1).
 
 process_user_command('clear') :-
     clear_history(),
-    write('Your history has been cleared.'), nl,
+    write('Riwayat Anda sudah dibersihkan.'), nl,
     start(1).
 
 process_user_command('recommend') :-
@@ -57,10 +59,10 @@ process_user_command('recommend') :-
     start(1).
 
 process_user_command('history') :-
-    write('Your history:'), nl,
+    write('Riwayat Anda:'), nl,
     \+ list_history(), nl,
     start(1).
 
 process_user_command(_) :-
-    write('Invalid command. Type \'help.\' to see the list of commands.'), nl,
+    write('Perintah salah. Gunakan \'help.\' untuk melihat perintah yang bisa digunakan.'), nl,
     start(1).
