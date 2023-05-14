@@ -14,12 +14,11 @@ start(1) :-
     % Display a prompt and read user input
     write('Masukkan sebuah perintah: '),
     read(UserCommand),
+    % If the command is 'exit', stop asking for commands
+    (UserCommand = 'exit' ; UserCommand = 'quit' ; UserCommand = 'bye') -> true ;
+    % Otherwise, process the command and loop back to the beginning
     process_user_command(UserCommand),
     start(1).
-
-process_user_command('exit') :- !.
-process_user_command('quit') :- !.
-process_user_command('bye') :- !.
 
 process_user_command('help') :-
     write('List of commands:'), nl,
