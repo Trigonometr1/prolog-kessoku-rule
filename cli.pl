@@ -13,6 +13,9 @@ start(1) :-
     read(UserCommand),
     process_user_command(UserCommand).
 
+start(2) :-
+    write('Semua predicate dapat dicek melalui admin.pl'), nl.
+
 process_user_command('exit') :- !.
 process_user_command('quit') :- !.
 process_user_command('bye') :- !.
@@ -54,12 +57,10 @@ process_user_command('recommend') :-
     start(1).
 
 process_user_command('history') :-
-    list_history(), nl,
+    write('Your history:'), nl,
+    \+ list_history(), nl,
     start(1).
 
 process_user_command(_) :-
     write('Invalid command. Type \'help.\' to see the list of commands.'), nl,
     start(1).
-
-start(2) :-
-    write('Semua predicate dapat dicek melalui admin.pl'), nl.
