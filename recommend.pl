@@ -14,8 +14,6 @@ list_history() :-
     findall(Name, temp(Name,_,_,_), Names),
     write_each_name(Names).
 
-% save_history(["Naruto", "One Piece", "Dragon Ball", "Bleach"]).
-% listing(temp).
 get_data(Names,Ratings,Genreses,Themeses, All) :- 
     All1 = [],
     findall(Name,temp(Name,_,_,_),Names), 
@@ -34,8 +32,6 @@ find(Rating,Genreses,Themeses, Rec_Anime3) :-
     findall((Name, Genres, Themes),anime(Name,_,_,_,Rating,_,_,Genres,Themes), Rec_Anime),
     filter_genre(Rec_Anime, Genreses, Rec_Anime1), filter_theme(Rec_Anime1, Themeses, Rec_Anime2), 
     get_name(Rec_Anime2, Rec_Anime3).
-% findall(temp(Name, Genres, Themes),anime(Name,tv, finished_airing, manga, pg_13,fall, 2004,"Fantasy","Martial Arts"), Rec_Anime),
-% find(["Bleach", "Dragon Ball", "One Piece", "Naruto"], tv, finished_airing, manga, pg_13,fall, 2004,"Fantasy","Martial Arts", X)
 
 get_name([], []).
 get_name([(Name, _, _)| Xs], [Name|Ys]) :- get_name(Xs, Ys). 
@@ -58,8 +54,6 @@ recommending_start(Names, Rating, Genres, Themes, All) :-
     find(Rating,Genres,Themes,Rec_Names1),
     subtract(Rec_Names1, Names, Rec_Names),
     write_per_5(Rec_Names, Names, Rec_Names, Rating, Genres, Themes, All).
-    % write("Ingin melanjutkan? (y/n)"), nl(), read(In),
-    % verify_input2(In, Names, Rec_Names, Rating, Genres, Themes, All).
 
 recommending_next(Names, _, Genres, Themes, [(Val, _, "Rating")|All]) :-
     recommending_next2(Names, Val, Genres, Themes, All).
