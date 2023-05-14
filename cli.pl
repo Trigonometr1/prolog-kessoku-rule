@@ -15,6 +15,10 @@ start(1) :-
     read(UserCommand),
     process_user_command(UserCommand).
 
+process_user_command('exit') :- !.
+process_user_command('quit') :- !.
+process_user_command('bye') :- !.
+
 process_user_command('help') :-
     write('List of commands:'), nl,
     write('1. help -- menampilkan semua perintah yang tersedia'), nl,
