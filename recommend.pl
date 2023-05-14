@@ -3,6 +3,14 @@ save_history(Names) :-
     findall(temp(Name,Rating,Genres,Themes), anime(Name,_,_,_,Rating,_,_,Genres,Themes), [Y|_]),
     asserta(Y), fail.
 
+delete_history(Names) :- 
+    member(Name, Names),
+    retract(temp(Name,_,_,_)), fail.
+    
+list_history() :- 
+    findall(Name, temp(Name,_,_,_), Names),
+    write_each_name(Names).
+
 % save_history(["Naruto", "One Piece", "Dragon Ball", "Bleach"]).
 % listing(temp).
 get_data(Names,Ratings,Genreses,Themeses, All) :- 
