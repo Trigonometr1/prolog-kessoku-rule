@@ -18,9 +18,9 @@ start(2) :-
     write('Silakan lakukan autentikasi diri dahulu'), nl,
     authenticate.
 
-process_user_command('exit') :- !.
-process_user_command('quit') :- !.
-process_user_command('bye') :- !.
+process_user_command('exit').
+process_user_command('quit').
+process_user_command('bye').
 
 process_user_command('help') :-
     write('List of commands:'), nl,

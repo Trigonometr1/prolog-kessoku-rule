@@ -62,11 +62,11 @@ recommending_start(Names, Rating, Genres, Themes, All) :-
     % verify_input2(In, Names, Rec_Names, Rating, Genres, Themes, All).
 
 recommending_next(Names, _, Genres, Themes, [(Val, _, "Rating")|All]) :-
-    recommending_next2(Names, Val, Genres, Themes, All), !.
+    recommending_next2(Names, Val, Genres, Themes, All).
 recommending_next(Names, Rating, _, Themes, [(Val, _, "Genre")|All]) :-
-    recommending_next2(Names, Rating, Val, Themes, All), !.
+    recommending_next2(Names, Rating, Val, Themes, All).
 recommending_next(Names, Rating, Genres, _, [(Val, _, "Theme")|All]) :-
-    recommending_next2(Names, Rating, Genres, Val, All), !.
+    recommending_next2(Names, Rating, Genres, Val, All).
 
 recommending_next2(Names, Rating, Genres, Themes, All) :-
     write("Bagaimana dengan ini?"), nl, 
