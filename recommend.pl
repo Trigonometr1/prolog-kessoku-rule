@@ -75,25 +75,15 @@ recommending_next2(Names, Rating, Genres, Themes, All) :-
     write_per_5(Rec_Names, Names, Rec_Names, Rating, Genres, Themes, All).
 
 write_per_5(Rec_Names_Write, Names, Rec_Names, Rating, Genres, Themes, All) :-
-    length(Rec_Names_Write, Len), Len < 5,
+    length(Rec_Names_Write, Len), Len =< 5,
     write("Rekomendasi kami: "), nl,
     write_each_name(Rec_Names_Write), nl,
     write("Ingin melanjutkan? (y/n)"), nl, read(In), 
     verify_input2(In, Names, Rec_Names, Rating, Genres, Themes, All).
 
 write_per_5(Rec_Names_Write, Names, Rec_Names, Rating, Genres, Themes, All) :-
-    length(Rec_Names_Write, Len), Len >= 5,
+    length(Rec_Names_Write, Len), Len > 5,
     Rec_Names_Write = [A,B,C,D,E|Rec_Names_Rest],
-    length(Rec_Names_Rest, Len2), Len2 == 0,
-    write("Rekomendasi kami: "), nl,
-    write_each_name([A,B,C,D,E]), nl,
-    write("Ingin melanjutkan? (y/n)"), nl, read(In), 
-    verify_input2(In, Names, Rec_Names, Rating, Genres, Themes, All).
-
-write_per_5(Rec_Names_Write, Names, Rec_Names, Rating, Genres, Themes, All) :-
-    length(Rec_Names_Write, Len), Len >= 5,
-    Rec_Names_Write = [A,B,C,D,E|Rec_Names_Rest],
-    length(Rec_Names_Rest, Len2), Len2 > 0,
     write("Rekomendasi kami: "), nl,
     write_each_name([A,B,C,D,E]), nl,
     write("Ingin melanjutkan? (y/n)"), nl(), read(In),
